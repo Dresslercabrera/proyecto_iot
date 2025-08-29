@@ -1,0 +1,39 @@
+{
+  "name": "sensor-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard profesional para monitoreo de sensores en tiempo real",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "test": "echo \"No hay tests configurados\" && exit 0"
+  },
+  "keywords": [
+    "sensors",
+    "dashboard",
+    "realtime",
+    "nodejs",
+    "express",
+    "mysql2",
+    "socket.io"
+  ],
+  "author": "Tu Nombre <tuemail@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.14.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
